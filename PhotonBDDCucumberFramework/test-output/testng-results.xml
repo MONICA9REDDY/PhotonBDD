@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18766" started-at="2021-06-26T16:30:18 IST" finished-at="2021-06-26T16:30:37 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:iorunner.Runner@43bd930a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:iorunner.Runner@706a04ae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="TestChrome" duration-ms="18766" started-at="2021-06-26T16:30:18 IST" finished-at="2021-06-26T16:30:37 IST">
+      <class name="iorunner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:iorunner.Runner@43bd930a]" name="setUpClass" is-config="true" duration-ms="701" started-at="2021-06-26T16:30:18 IST" finished-at="2021-06-26T16:30:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:iorunner.Runner@43bd930a]" name="configBC" is-config="true" duration-ms="7" started-at="2021-06-26T16:30:19 IST" finished-at="2021-06-26T16:30:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:iorunner.Runner@43bd930a]" name="runScenario" duration-ms="17767" started-at="2021-06-26T16:30:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-26T16:30:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user I want to login to application by using valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[vTiger login Test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:iorunner.Runner@43bd930a]" name="configAC" is-config="true" duration-ms="0" started-at="2021-06-26T16:30:36 IST" finished-at="2021-06-26T16:30:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:iorunner.Runner@43bd930a]" name="tearDownClass" is-config="true" duration-ms="238" started-at="2021-06-26T16:30:36 IST" finished-at="2021-06-26T16:30:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- iorunner.Runner -->
+    </test> <!-- TestChrome -->
+    <test name="TestFirefox" duration-ms="18709" started-at="2021-06-26T16:30:18 IST" finished-at="2021-06-26T16:30:37 IST">
+      <class name="iorunner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:iorunner.Runner@706a04ae]" name="setUpClass" is-config="true" duration-ms="701" started-at="2021-06-26T16:30:18 IST" finished-at="2021-06-26T16:30:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:iorunner.Runner@706a04ae]" name="configBC" is-config="true" duration-ms="7" started-at="2021-06-26T16:30:19 IST" finished-at="2021-06-26T16:30:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:iorunner.Runner@706a04ae]" name="runScenario" duration-ms="17746" started-at="2021-06-26T16:30:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-26T16:30:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user I want to login to application by using valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[vTiger login Test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:iorunner.Runner@706a04ae]" name="configAC" is-config="true" duration-ms="1" started-at="2021-06-26T16:30:36 IST" finished-at="2021-06-26T16:30:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:iorunner.Runner@706a04ae]" name="tearDownClass" is-config="true" duration-ms="200" started-at="2021-06-26T16:30:36 IST" finished-at="2021-06-26T16:30:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- iorunner.Runner -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
